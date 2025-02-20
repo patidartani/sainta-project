@@ -1,0 +1,177 @@
+.Home1-main {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+
+.Home1-main .Home1 {
+          width: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: row;
+          gap: 2vmax;
+}
+
+.Home1-main .Home1 .Home1-left {
+          width: 50%;
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          padding: 2vmax 0vmax;
+          flex-direction: column;
+          gap: 1vmax;
+}
+
+.Home1-main .Home1 .Home1-left h5 {
+          font-size: 2.5vmax;
+          font-weight: 600;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.Home1-main .Home1 .Home1-left p {
+          letter-spacing: 1px;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Home1-main .Home1 .Home1-left .home1-btns {
+          width: 45%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: row;
+          margin-top: 0.5vmax;
+}
+
+.Home1-main .Home1 .Home1-left .home1-btns .learn-btn {
+          padding: 0.6vmax 2vmax;
+          border: none;
+          border-radius: 50px;
+          background-color: rgb(254, 155, 41);
+          color: #fff;
+          font-weight: 600;
+          transition: 0.5s;
+          box-shadow: 2px 2px 10px rgba(254, 155, 41, 0.5);
+          /* 🔥 Shadow Added */
+}
+
+.Home1-main .Home1 .Home1-left .home1-btns .learn-btn:hover {
+          background-color: rgb(0, 84, 153);
+          box-shadow: 3px 3px 12px rgba(0, 84, 153, 0.6);
+          /* Hover par aur bhi smooth effect */
+}
+
+.Home1-main .Home1 .Home1-left .home1-btns .join-btn {
+          padding: 0.6vmax 2vmax;
+          border: none;
+          border-radius: 50px;
+          color: rgb(254, 155, 41);
+          font-weight: 600;
+          background: none;
+          transition: 0.5s;
+          border: 1px solid rgb(254, 155, 41);
+          box-shadow: 2px 2px 5px rgba(254, 155, 41, 0.5);
+          /* 🔥 Shadow Added */
+}
+
+.Home1-main .Home1 .Home1-left .home1-btns .join-btn:hover {
+          border: 1px solid rgb(0, 73, 78);
+          color: rgb(0, 73, 78);
+          box-shadow: 3px 3px 12px rgba(0, 73, 78, 0.6);
+          /* Hover pe aur enhance */
+}
+
+.Home1-main .Home1 .Home1-right {
+          width: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 2vmax 0vmax;
+}
+
+.Home1-main .Home1 .Home1-right img {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+
+@media (max-width:600px) {
+          .Home1-main {
+                    width: 100%;
+          }
+          .Home1-main .Home1 {
+                    width: 95%;
+                    flex-direction: column;
+          }
+          .Home1-main .Home1 .Home1-left {
+                    width: 100%;
+                    padding: 5vmax 0vmax;
+          }
+          
+          .Home1-main .Home1 .Home1-left h5 {
+                    font-size:4.5vmax;          
+          }
+          .Home1-main .Home1 .Home1-left .home1-btns {
+                    width: auto;
+                    gap: 2vmax;
+          }
+          
+          .Home1-main .Home1 .Home1-left .home1-btns .learn-btn {
+                    padding: 1.5vmax 3.5vmax;
+          }
+          .Home1-main .Home1 .Home1-left .home1-btns .join-btn {
+                    padding: 1.5vmax 3.9vmax;
+          }
+          .Home1-main .Home1 .Home1-right {
+                    width: 100%;
+                    padding: 0vmax 0vmax;
+          }
+          .Home1-main .Home1 .Home1-right img {
+                    width: 100%;
+          }       
+}
+@media (min-width:600px) and (max-width:1150px) {
+          .Home1-main {
+                    width: 100%;
+          }
+          .Home1-main .Home1 {
+                    width: 90%;
+                    flex-direction: column;
+          }
+          .Home1-main .Home1 .Home1-left {
+                    width: 100%;
+                    padding: 5vmax 0vmax;
+          }
+          
+          .Home1-main .Home1 .Home1-left h5 {
+                    font-size:5vmax;          
+          }
+              
+          .Home1-main .Home1 .Home1-left p {
+                    font-size:3vmax;  
+                            
+          }
+          .Home1-main .Home1 .Home1-left .home1-btns {
+                    width: auto;
+                    gap: 2vmax;
+          }
+          
+          .Home1-main .Home1 .Home1-left .home1-btns .learn-btn {
+                    padding: 1.5vmax 3.5vmax;
+                    font-size: 2.5vmax;
+          }
+          .Home1-main .Home1 .Home1-left .home1-btns .join-btn {
+                    padding: 1.5vmax 3.9vmax;
+                    font-size: 2.5vmax;
+          }
+          .Home1-main .Home1 .Home1-right {
+                    width: 100%;
+                    padding: 0vmax 0vmax;
+          }
+          .Home1-main .Home1 .Home1-right img {
+                    width: 100%;
+          }       
+}
