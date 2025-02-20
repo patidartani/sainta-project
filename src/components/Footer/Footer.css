@@ -171,13 +171,14 @@
         .Footer-main .footer-page .fLeft {
                 width: 100%;
                 flex-direction: row;
-                padding-left: 3.5vmax;
+                padding-left: 0vmax;
+                align-items: flex-start;
         }
         .Footer-main  .footer-page .fLeft #res{
                 display: initial;
                 width: 50%;
                 margin-top: 3vmax;
-                padding-left: 4vmax;
+                padding-left: 0vmax;
         }
 
         .Footer-main  .footer-page .fLeft #res h5{
@@ -191,25 +192,27 @@
         .Footer-main .footer-page .fRight {
                 width: 100%;
                 /* margin-left: 3vmax; */
-                padding-left: 3.5vmax;
+                padding-left: 0vmax;
         }
         .Footer-main .footer-page .fRight #res{
                 display: none;
         }
 
         .Footer-main .footer-page .footer-one {
-                width: 50%;
+                width: 100%;
                 display: flex;
-                align-items: flex-start;
-                justify-content:space-between;
+                align-items: center;
+                justify-content:center;
                 flex-direction: column;
         }
 
         .Footer-main .footer-page .footer-one h4 {
                 width: 100%;
-                height: 100px;
+                height: auto;
                 margin-top: 0vmax;
-                /* padding-left: 3.2vmax; */
+               display: flex;
+               align-items: flex-start;
+               justify-content: flex-start;
         }
 
         .Footer-main .footer-page .footer-one p {
@@ -217,7 +220,7 @@
         }
 
         .Footer-main .footer-page .footer-one h4 img {
-                width: 80%;
+                width: 50%;
                 height: auto;
                 margin-top: 3vmax;
         
@@ -244,6 +247,7 @@
                 align-items: flex-start;
                 justify-content: flex-start;
                 flex-direction: row;
+                margin-top: 1vmax;
         }
 
         .Footer-main .footer-page .footer-one .f-btm .social-media small a {
@@ -288,13 +292,14 @@
         .Footer-main .footer-page .fLeft {
                 width: 100%;
                 flex-direction: row;
-                padding-left: 3.5vmax;
+                padding-left: 0vmax;
+                align-items: flex-start;
         }
         .Footer-main  .footer-page .fLeft #res{
                 display: initial;
                 width: 50%;
                 margin-top: 3vmax;
-                padding-left: 4vmax;
+                padding-left: 0vmax;
         }
 
         .Footer-main  .footer-page .fLeft #res h5{
@@ -308,25 +313,27 @@
         .Footer-main .footer-page .fRight {
                 width: 100%;
                 /* margin-left: 3vmax; */
-                padding-left: 3.5vmax;
+                padding-left: 0vmax;
         }
         .Footer-main .footer-page .fRight #res{
                 display: none;
         }
 
         .Footer-main .footer-page .footer-one {
-                width: 50%;
+                width: 100%;
                 display: flex;
-                align-items: flex-start;
-                justify-content:space-between;
+                align-items: center;
+                justify-content:center;
                 flex-direction: column;
         }
 
         .Footer-main .footer-page .footer-one h4 {
                 width: 100%;
-                height: 100px;
+                height: auto;
                 margin-top: 0vmax;
-                padding-left: 3.2vmax;
+               display: flex;
+               align-items: flex-start;
+               justify-content: flex-start;
         }
 
         .Footer-main .footer-page .footer-one p {
@@ -334,9 +341,10 @@
         }
 
         .Footer-main .footer-page .footer-one h4 img {
-                width: 130%;
-                height: 150px;
+                width: 30%;
+                height: auto;
                 margin-top: 3vmax;
+        
         }
 
         .Footer-main .footer-page .footer-one h5 {
@@ -360,6 +368,7 @@
                 align-items: flex-start;
                 justify-content: flex-start;
                 flex-direction: row;
+                margin-top: 1vmax;
         }
 
         .Footer-main .footer-page .footer-one .f-btm .social-media small a {
@@ -385,8 +394,6 @@
         font-size: 1.4vmax;
        
 }
-
-
 
 
 }

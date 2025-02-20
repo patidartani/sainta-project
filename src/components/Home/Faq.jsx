@@ -20,7 +20,7 @@ const Faq = () => {
     <section className="faqSecMain">
       <div className='Faq'>
         <div className="faqq">
-          <h5>よくある質問</h5> {/* Frequently Asked Questions in Japanese */}
+          <h5>よくある質問</h5> 
           <div className="f-btm">
             {faqData.map((faq, index) => (
               <div className="line" key={index}>

@@ -21,6 +21,7 @@
           align-items: center;
           justify-content: center;
           flex-direction: column;
+          
 }
 .Features-main .features-page  .features-header h6{
         color: rgb(0, 84, 153);
@@ -29,6 +30,7 @@
 .Features-main .features-page .features-bottom .feature1{
           width: 100%;
           height: 300px;
+          overflow: hidden;
           display: flex;
           align-items: center;
           justify-content: space-between;
@@ -53,15 +55,16 @@
           flex-direction: column;
 }
 .Features-main .features-page .features-bottom .feature1 .f-right h6{
-         font-size: 1.5vmax;
-         font-weight: 600;
-         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         font-size: 1.6vmax;
+         font-weight: bold;
 }
 .Features-main .features-page .features-bottom .feature1 .f-right p{
-          font-size: 1.1vmax;
-          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-          letter-spacing: 1px;
+          font-size: 1vmax;
+          word-spacing: 1px;
+                    letter-spacing: 1px;
+          font-weight: bolder;
           text-align: justify;
+          color: rgb(64, 64, 64);
  }
 
 
@@ -94,15 +97,16 @@
           flex-direction: column;
 }
 .Features-main .features-page .features-bottom .feature2 .f-right h6{
-       font-size: 1.5vmax;
-       font-weight: 600;
-         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: 1.6vmax;
+       font-weight: bold;
 }
 .Features-main .features-page .features-bottom .feature2 .f-right p{
-          font-size: 1.1vmax;
-          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-          letter-spacing: 1px;
-          text-align: justify;
+       font-size: 1vmax;
+       word-spacing: 1px;
+                 letter-spacing: 1px;
+       font-weight: bolder;
+       text-align: justify;
+       color: rgb(64, 64, 64);
  }
 
 @media (max-width:600px) {
@@ -140,11 +144,13 @@
                     flex-direction: column;
           }
           .Features-main .features-page .features-bottom .feature1 .f-right h6{
-                   font-size: 4vmax;
+                   font-size: 3vmax;
+                   text-align: center;
           }
           .Features-main .features-page .features-bottom .feature1 .f-right p{
                     font-size: 1.8vmax;
                     text-align: center;
+                    margin-top: 2vmax;
            }
 
 
@@ -169,11 +175,12 @@
                     flex-direction: column;
           }
           .Features-main .features-page .features-bottom .feature2 .f-right h6{
-                   font-size: 4vmax;
-          }
+              font-size: 3vmax;
+              text-align: center;          }
           .Features-main .features-page .features-bottom .feature2 .f-right p{
                     font-size: 1.8vmax;
                     text-align: center;
+                    margin-top: 2vmax;
            }
             
 }

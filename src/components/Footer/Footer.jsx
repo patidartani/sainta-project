@@ -42,7 +42,7 @@ const Footer = () => {
                </div>
 
 
-               <div className="footer-one" id='res' style={{marginTop:"2vmax"}}>
+               {/* <div className="footer-one" id='res' style={{marginTop:"2vmax"}}>
            <h5>Loans</h5>
            <div className="f-btm">
                   <a href="/loan"><i className="ri-arrow-right-s-fill"></i> Home Loan</a>  
@@ -50,7 +50,7 @@ const Footer = () => {
                   <a href="/loan"><i className="ri-arrow-right-s-fill"></i>Business Loan</a>  
                   <a href="/loan"><i className="ri-arrow-right-s-fill"></i>Overdraft Loan</a>  
            </div>
-           </div>
+           </div> */}
         
          
               </div>
@@ -74,11 +74,11 @@ const Footer = () => {
     </a>
 
     <a href="https://www.google.com/maps?q=27A+CHANDRA+NA" target="_blank" rel="noopener noreferrer">
-        <span><i className="ri-map-pin-line"></i> 27A CHANDRA NA</span>
+        <span><i className="ri-map-pin-line"></i> Tokyo, Japan</span>
     </a>
 
     <a href="tel:+918817507815">
-        <span><i className="ri-phone-line"></i>+91 88175 07815</span>
+        <span><i className="ri-phone-line"></i>+1 (561) 972-1301</span>
     </a>
 </div>
 
