@@ -1,6 +1,6 @@
 import "./Faq.css";
 import { useState } from 'react';
-import 'remixicon/fonts/remixicon.css';
+import { IoMdArrowDropdown, IoMdArrowDropup } from "react-icons/io";
 
 const Faq = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -26,13 +26,13 @@ const Faq = () => {
               <div className="line" key={index}>
                 <div className="one" onClick={() => handleToggle(index)}>
                   <p>{faq.question}</p>
-                  <i className={openIndex === index ? "ri-arrow-up-s-line" : "ri-arrow-down-s-line"}></i>
+                  <i className={openIndex === index ? "rotate" : ""}>
+                    {openIndex === index ? <IoMdArrowDropup size={24} /> : <IoMdArrowDropdown size={24} />}
+                  </i>
                 </div>
-                {openIndex === index && (
-                  <div className="two show">
-                    <p>{faq.answer}</p>
-                  </div>
-                )}
+                <div className={`two ${openIndex === index ? "show" : ""}`}>
+                  <p>{faq.answer}</p>
+                </div>
               </div>
             ))}
           </div>
