@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Home1.css"
+import HomeImg from "../../assets/homeimg.jpg"
 
 const Home1 = () => {
   return (
@@ -18,7 +19,7 @@ const Home1 = () => {
                        </div>
                     </div> 
                     <div className="Home1-right">
-                             <img src="https://img.freepik.com/premium-photo/full-length-woman-standing-against-plants_1048944-662068.jpg?semt=ais_hybrid" alt="" /> 
+                             <img src={HomeImg} alt="" /> 
                     </div>  
           </div> 
     </div>
