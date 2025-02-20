@@ -1,4 +1,4 @@
-.faqSecMain{
+.faqSecMain {
   background-color: #f3ecec88;
   padding: 20px 10px;
 }
@@ -28,44 +28,7 @@
   justify-content: center;
   font-weight: 700;
   color: rgb(0, 84, 153);
-
 }
-
-.Faq .faqq .f-top {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 1vmax;
-  border-radius: 5px;
-  flex-direction: row;
-  border: 0.2px solid rgb(254, 155, 41);
-
-}
-
-.Faq .faqq .f-top i {
-  width: 2%;
-  display: flex;
-  align-items: flex-end;
-  font-size: 1.2vmax;
-  justify-content: flex-end;
-  color: rgb(254, 155, 41);
-}
-
-.Faq .faqq .f-top input {
-  width: 98%;
-  border: none;
-  background-color: none;
-  color: rgb(254, 155, 41);
-  outline: none;
-  padding: 0.7vmax 1vmax;
-  border-radius: 5px;
-}
-
-.Faq .faqq .f-top input::placeholder {
-  color: rgb(254, 155, 41);
-}
-
 
 .Faq .faqq .f-btm {
   width: 100%;
@@ -92,7 +55,10 @@
   justify-content: space-between;
   flex-direction: row;
   cursor: pointer;
+  padding: 1vmax;
+  transition: background-color 0.3s ease;
 }
+
 
 .Faq .faqq .f-btm .line .one p {
   font-weight: 600;
@@ -101,24 +67,30 @@
 .Faq .faqq .f-btm .line .one i {
   font-size: 1.7vmax;
   cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
+.Faq .faqq .f-btm .line .one i.rotate {
+  transform: rotate(180deg);
+}
+
+/* Smooth FAQ Answer Animation */
 .Faq .faqq .f-btm .line .two {
   width: 100%;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  /* color: rgb(254, 155, 41); */
-  overflow: hidden;
+  opacity: 0;
+  transform: translateY(-10px);
   max-height: 0;
-  transition: max-height 0.5s ease;
-  padding: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, opacity 0.5s ease, transform 0.5s ease;
 }
 
 .Faq .faqq .f-btm .line .two.show {
   max-height: 500px;
+  opacity: 1;
+  transform: translateY(0);
   padding: 1vmax 0;
 }
+
 
 @media (max-width: 600px) {
   .Faq .faqq {
