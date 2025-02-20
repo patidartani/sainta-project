@@ -10,17 +10,17 @@ const Faq = () => {
   };
 
   const faqData = [
-    { question: "What is your return policy?", answer: "You can return any item within 30 days of purchase." },
-    { question: "How can I track my order?", answer: "You can track your order from the 'Orders' section in your account." },
-    { question: "Do you offer international shipping?", answer: "Yes, we ship to most countries worldwide." },
-    { question: "How do I contact customer support?", answer: "You can reach us via email at support@example.com." }
+    {
+      question: "サインタERPの導入は難しい？",
+      answer: "サインタERPは、直感的な操作性を重視して設計されており、スムーズな導入が可能です。\nアクセスは非常にシンプルで、企業IDと登録済みメールアドレス（またはユーザー名）、パスワードでの認証後、すぐにシステムをご利用いただけます。\nクラウドベースのため、専用ソフトのインストールも不要です。"
+    }
   ];
 
   return (
     <section className="faqSecMain">
       <div className='Faq'>
         <div className="faqq">
-          <h5>Frequently Asked Questions</h5>
+          <h5>よくある質問</h5> {/* Frequently Asked Questions in Japanese */}
           <div className="f-btm">
             {faqData.map((faq, index) => (
               <div className="line" key={index}>

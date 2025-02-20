@@ -91,7 +91,7 @@ const Footer = () => {
 </div>
 <div className="f-last">
       <p>
-        ©  {currentYear} <a style={{textDecoration:"none"}} href="/">Sainta</a>   All Rights Reserved
+        ©  {currentYear} <a style={{textDecoration:"none", color:"rgb(254, 155, 41)"}} href="/">Sainta</a>   All Rights Reserved
       </p>
     </div>
 </div>

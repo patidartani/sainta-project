@@ -53,8 +53,8 @@
           flex-direction: column;
 }
 .Features-main .features-page .features-bottom .feature1 .f-right h6{
-         font-size: 2vmax;
-         font-weight: 500;
+         font-size: 1.5vmax;
+         font-weight: 600;
          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .Features-main .features-page .features-bottom .feature1 .f-right p{
@@ -94,8 +94,8 @@
           flex-direction: column;
 }
 .Features-main .features-page .features-bottom .feature2 .f-right h6{
-         font-size: 2vmax;
-         font-weight: 500;
+       font-size: 1.5vmax;
+       font-weight: 600;
          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .Features-main .features-page .features-bottom .feature2 .f-right p{

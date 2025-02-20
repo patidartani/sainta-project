@@ -28,7 +28,7 @@ const Navbar = () => {
             <li><a href="#">Services</a></li>
             <li><a href="#">Contact Us</a></li>
           </ul>
-          <button className="nav-btn">Get Started</button>
+          <button className="nav-btn">資料請求</button>
         </div>
 
       </div> 
