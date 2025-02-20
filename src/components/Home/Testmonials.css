@@ -117,14 +117,15 @@
 .review-text {
     text-align: center;
     font-size: 1.1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
   
   .review-info {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 100%;
+    gap: 1vmax;
   }
   
   .review-img {
@@ -135,16 +136,20 @@
   }
   
   .review-name {
-    font-weight: 600;
-    font-size: 1rem;
-  }
-  
-  .review-stars {
-    color: gold;
     font-size: 1.2rem;
-    margin-top: 1rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
   }
-  
+  .review-name  span{
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .review-name  small{
+    font-size: 0.9rem;
+
+  }
 
 @media (max-width:600px) {
           .Demat-main {
