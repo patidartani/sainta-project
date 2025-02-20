@@ -13,7 +13,7 @@ const Footer = () => {
               <div className="footer-one">
               <h4><img src={mainLogo} alt="" /></h4>
               <div className="f-btm">
-                   <p>Sainta, our mission is to provide top-notch services that add value to the lives of our customers.</p> 
+              <p>サイントラERPは、直感的なUIとカスタマイズ可能な機能を備え、クラウドベースで柔軟にアクセスできる統合型ソリューションです。</p>
                    <div className="social-media">
     <small>
         <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">

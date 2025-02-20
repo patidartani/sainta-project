@@ -6,7 +6,7 @@ const reviews = [
   {
 
     text: "I am extremely satisfied with the quality and professionalism. Will definitely be coming back for more.",
-    name: "Pallavi Patel",
+    name: "James Brown",
     imgSrc: "https://static.vecteezy.com/system/resources/previews/042/392/476/non_2x/ai-generated-portrait-of-young-beautiful-japanese-woman-in-glasses-on-busy-city-street-free-photo.jpg",
     rating: 5,
   },

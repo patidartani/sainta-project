@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="Navbar-main">
       <div className="Navbar-content">
-        
+
         {/* Left Side - Logo */}
         <div className="nav-left">
           <div className="logo">
@@ -31,7 +31,7 @@ const Navbar = () => {
           <button className="nav-btn">資料請求</button>
         </div>
 
-      </div> 
+      </div>
     </div>
   );
 };
