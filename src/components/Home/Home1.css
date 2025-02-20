@@ -3,6 +3,7 @@
           display: flex;
           align-items: center;
           justify-content: center;
+          background-color: #f3ecec88;
 }
 
 .Home1-main .Home1 {
@@ -79,7 +80,7 @@
 .Home1-main .Home1 .Home1-left .home1-btns .join-btn:hover {
           border: 1px solid rgb(0, 73, 78);
           color: rgb(0, 73, 78);
-          box-shadow: 3px 3px 12px rgba(0, 73, 78, 0.6);
+          box-shadow: 3px 3px 12px rgba(0, 73, 78, 0.904);
           /* Hover pe aur enhance */
 }
 

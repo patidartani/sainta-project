@@ -1,0 +1,20 @@
+.Features-main{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+.Features-main .features-page{
+          width: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+}
+.Features-main .features-page  .features-header{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+}
