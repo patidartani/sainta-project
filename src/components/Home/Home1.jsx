@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Home1.css"
-import Home1Img from "../../assets/japanes1.jpg"
 
 const Home1 = () => {
   return (

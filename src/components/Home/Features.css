@@ -3,6 +3,9 @@
           display: flex;
           align-items: center;
           justify-content: center;
+          padding-top: 2vmax;
+          background-color: #f3ecec88;
+
 }
 .Features-main .features-page{
           width: 80%;
@@ -11,10 +14,54 @@
           justify-content: center;
           flex-direction: column;
 }
-.Features-main .features-page  .features-header{
+.Features-main .features-page  .features-header,
+.Features-main .features-page .features-bottom{
           width: 100%;
           display: flex;
           align-items: center;
           justify-content: center;
           flex-direction: column;
 }
+.Features-main .features-page  .features-header h6{
+        color: rgb(0, 84, 153);
+}
+
+.Features-main .features-page .features-bottom .feature1{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: row;
+          margin-top: 3vmax;
+          gap: 2vmax;
+}
+.Features-main .features-page .features-bottom .feature1 .f-left{
+          width: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+.Features-main .features-page .features-bottom .feature1 .f-left img{
+          width: 65%;
+}
+.Features-main .features-page .features-bottom .feature1 .f-right{
+          width: 50%;
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-direction: column;
+}
+.Features-main .features-page .features-bottom .feature1 .f-right h6{
+         font-size: 2vmax;
+         font-weight: 500;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Features-main .features-page .features-bottom .feature1 .f-right p{
+          font-size: 1.1vmax;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          letter-spacing: 1px;
+          text-align: justify;
+ }
+
+
+ 
