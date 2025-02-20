@@ -70,7 +70,7 @@ const Footer = () => {
            <div className="f-btm">
     {/* Email Link */}
     <a href="mailto:info@therightway.in">
-        <span><i className="ri-mail-line"></i> info@sainta.in </span>
+        <span><i className="ri-mail-line"></i> info@sainta.com </span>
     </a>
 
     <a href="https://www.google.com/maps?q=27A+CHANDRA+NA" target="_blank" rel="noopener noreferrer">
@@ -91,7 +91,7 @@ const Footer = () => {
 </div>
 <div className="f-last">
       <p>
-        ©  {currentYear} <a style={{textDecoration:"none"}} href="/">Sainta.in</a>   All Rights Reserved
+        ©  {currentYear} <a style={{textDecoration:"none"}} href="/">Sainta</a>   All Rights Reserved
       </p>
     </div>
 </div>
