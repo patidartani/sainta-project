@@ -24,10 +24,11 @@
 .Faq .faqq h5 {
   width: 100%;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   font-weight: 700;
-  color: rgb(254, 155, 41);
+  color: rgb(0, 84, 153);
+
 }
 
 .Faq .faqq .f-top {
@@ -107,7 +108,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  color: rgb(254, 155, 41);
+  /* color: rgb(254, 155, 41); */
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.5s ease;
